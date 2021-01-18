@@ -12,6 +12,7 @@ RUN	DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
 	perl-modules \
 	libnss-sss \
 	ncat \
+	libdbd-mysql-perl \
 	make
 
 RUN PERL_MM_USE_DEFAULT=1 cpan App::Sqitch
